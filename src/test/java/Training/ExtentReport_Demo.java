@@ -41,6 +41,9 @@ So to create the path dynamically through we can say system.getProperty and user
 // Here we have to pass the object of ExtentSparkReporter so automatically our main class will have knowledge of object
 				 
 			     extent.setSystemInfo("Tester", "Sonam");
+			     System.out.println("Test1");
+					System.out.println("test2");
+					System.out.println("test3");
 			    
 //Now how to use main class(Extent) object in below class i.e. how our test case report will be attached to this main class variable 
 			}
