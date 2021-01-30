@@ -70,6 +70,8 @@ So to create the path dynamically through we can say system.getProperty and user
 				//WebDriver driver = new ChromeDriver();
 				driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 				System.out.println(driver.getTitle());
+				System.out.println("Data1");
+				System.out.println("Data2");
 				driver.close();
 				//this will automatically attach the screenshot to the specific test method 
 				//testObj1.addScreenCaptureFromBase64String(s);
