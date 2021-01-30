@@ -72,6 +72,8 @@ So to create the path dynamically through we can say system.getProperty and user
 				System.out.println(driver.getTitle());
 				System.out.println("Data1");
 				System.out.println("Data2");
+				System.out.println("Data3");
+				System.out.println("Data4");
 				driver.close();
 				//this will automatically attach the screenshot to the specific test method 
 				//testObj1.addScreenCaptureFromBase64String(s);
